@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 
 const projects = [
-  { title: "Brand Refresh", category: "Branding", color: "from-orange-200 to-amber-100" },
-  { title: "E-Commerce App", category: "Development", color: "from-slate-200 to-slate-100" },
-  { title: "SaaS Dashboard", category: "UI/UX Design", color: "from-rose-200 to-pink-100" },
-  { title: "Marketing Site", category: "Web Design", color: "from-sky-200 to-blue-100" },
-  { title: "Mobile Banking", category: "Mobile App", color: "from-emerald-200 to-green-100" },
-  { title: "Portfolio CMS", category: "Full Stack", color: "from-violet-200 to-purple-100" },
+  { title: "Mentorship Initiative", category: "Guidance", color: "from-orange-200 to-amber-100" },
+  { title: "Community Outreach", category: "Social Impact", color: "from-slate-200 to-slate-100" },
+  { title: "Youth Empowerment", category: "Education", color: "from-rose-200 to-pink-100" },
+  { title: "Awareness Campaign", category: "Advocacy", color: "from-sky-200 to-blue-100" },
+  { title: "Support Network", category: "Community", color: "from-emerald-200 to-green-100" },
+  { title: "Change Movement", category: "Social Change", color: "from-violet-200 to-purple-100" },
 ];
 
 const PortfolioSection = () => {
@@ -21,8 +21,8 @@ const PortfolioSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <p className="text-primary font-body text-sm tracking-widest uppercase mb-3">Selected Work</p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground">Portfolio</h2>
+          <p className="text-primary font-body text-sm tracking-widest uppercase mb-3">Initiatives</p>
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground">Making an Impact</h2>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

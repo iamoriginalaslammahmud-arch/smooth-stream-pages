@@ -15,27 +15,27 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="text-muted-foreground font-body text-sm tracking-widest uppercase mb-6"
         >
-          Designer · Developer · Creator
+          Guidance · Mentorship · Change
         </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-foreground leading-[1.05]"
+          className="font-display text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight text-foreground leading-[1.1]"
         >
-          I craft digital
+          Empower those
           <br />
-          <span className="text-primary">experiences.</span>
+          <span className="text-primary">around you.</span>
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="mt-8 text-muted-foreground text-lg md:text-xl max-w-xl mx-auto font-body leading-relaxed"
+          className="mt-8 text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto font-body leading-relaxed"
         >
-          Building clean, purposeful products that connect people with ideas — one pixel at a time.
+          Everyone should strive to empower those around them by providing the right guidance and helping them move forward to the best of their ability.
         </motion.p>
 
         <motion.div
