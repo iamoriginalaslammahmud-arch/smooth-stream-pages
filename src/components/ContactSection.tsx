@@ -26,9 +26,9 @@ const ContactSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
         >
-          <p className="text-primary font-body text-sm tracking-widest uppercase mb-3">Let's Talk</p>
-          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground">Get in Touch</h2>
-          <p className="mt-4 text-muted-foreground font-body">Have a project in mind? I'd love to hear about it.</p>
+          <p className="text-primary font-body text-sm tracking-widest uppercase mb-3">Connect</p>
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground">Let's Make a Difference</h2>
+          <p className="mt-4 text-muted-foreground font-body">Have an idea or want to collaborate on something meaningful? I'd love to hear from you.</p>
         </motion.div>
 
         <motion.form
